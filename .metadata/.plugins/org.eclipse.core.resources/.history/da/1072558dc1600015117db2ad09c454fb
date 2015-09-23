@@ -1,0 +1,6 @@
+package Component;
+
+public interface Acai {
+	public String descircao = "Açaí ";
+	public double preco();
+}

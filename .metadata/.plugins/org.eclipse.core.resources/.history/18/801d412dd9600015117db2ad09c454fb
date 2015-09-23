@@ -1,0 +1,14 @@
+package ConcreteComponent;
+
+import Component.Acai;
+
+public class acai400 implements Acai{
+
+	String descricao = "Açaí de 400";
+	
+	@Override
+	public double preco() {
+		return 2.00;
+	}
+	
+}

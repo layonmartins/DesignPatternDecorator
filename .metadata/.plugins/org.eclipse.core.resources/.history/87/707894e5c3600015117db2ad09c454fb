@@ -1,0 +1,6 @@
+package Component;
+
+public interface Acai {
+	public String getDescricao();
+	public double preco();
+}

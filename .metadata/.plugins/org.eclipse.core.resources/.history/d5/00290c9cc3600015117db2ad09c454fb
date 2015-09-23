@@ -1,0 +1,25 @@
+package ConcreteDecorator;
+
+import Component.Acai;
+import Decorator.Complemento;
+
+public class Nutela extends Complemento{
+
+	Acai acai;
+	
+	public Nutela(Acai acai){
+		this.acai = acai;
+	}
+	
+	@Override
+	public double preco() {
+		return acai.preco() + 1.00;
+	}
+
+	@Override
+	public String getDecricao() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

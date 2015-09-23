@@ -1,0 +1,10 @@
+package Component;
+
+public abstract class Acai {
+	public String descricao;
+	public String getDescricao() {
+		return null;
+	}
+	public abstract double preco();	
+	
+}
